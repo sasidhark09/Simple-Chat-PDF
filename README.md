@@ -10,8 +10,11 @@ Retrieval Augmented Generation:
 
 Execution:
 Multiple pdf's converted into single text corpus.
-corpus then splitted into data chunks with specified chunksize and chunk_overlap.
+
+Corpus then splitted into data chunks with specified chunksize and chunk_overlap.
+
 Applied a free model of GoogleGenerativeAI embeddings to convert data chunks into context rich vectors.
+
 Used FAISS [Facebook AI similarity Search] database for storing the vectors.
 
 
