@@ -9,6 +9,7 @@ Retrieval Augmented Generation:
 
 
 Execution:
+
 Multiple pdf's converted into single text corpus.
 
 Corpus then splitted into data chunks with specified chunksize and chunk_overlap.
